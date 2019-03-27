@@ -1,0 +1,28 @@
+@font-face{
+
+    font-family: 'Nexa';
+
+    src: url(../fonts/Nexa-Bold.otf);
+
+    font-weight: bold;
+
+    font-style: normal;
+
+}
+
+@font-face{
+
+    font-family: 'ProximaNovaRegIt';
+
+    src: url(../fonts/ProximaNovaExCn-RegIt.otf);
+
+}
+
+@font-face{
+
+    font-family: 'ProximaNovaLight';
+
+    src: url(../fonts/ProximaNovaExCn-Light.otf);
+
+}
+

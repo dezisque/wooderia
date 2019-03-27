@@ -1,0 +1,220 @@
+@import "fonts.css";
+
+
+/* Main */
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #d5ac65, #a6ceb8);
+}
+#content{
+    width: 100%;
+    height: 100%;
+    background-color: #aaa;
+}
+
+
+/* Header */
+.nav-item a{
+    color: #000!important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-nav span{
+    padding-top: 0.5em;
+}
+
+
+#header nav
+{
+    padding-top: 2em;
+    padding-left: 5%;
+}
+
+.title_block{
+    position: relative;
+    z-index: 3;
+    padding-top: 10em;
+}
+
+.main_title, .main_description{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.main_title h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Nexa;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+}
+
+.main_description{
+    padding-left: 30px;
+}
+
+.main_description p{
+    font-family: ProximaNovaRegIt;
+    font-weight: 500;
+    line-height: 0.8em;
+    font-size: 1.5vw;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.tagline{
+    position: relative;
+    z-index: 2;
+}
+
+
+.outer-rect{
+    left: -1em;
+    height: 75vh;
+    width: 80%;
+    border: 5px solid rgba(0,0,0,0);
+    outline: 2px solid rgba(0,0,0,0.4);
+    position: absolute;
+    top: -23em;
+}
+
+.rect{
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0.8);
+    position: absolute;
+}
+
+.rect div{
+    padding-left: 2em;
+}
+
+.tagline_text{
+    font-family: ProximaNovaLight;
+    font-weight: 600;
+    font-size: 2.2em;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 65%;
+}
+
+.tagline_description, .tagline_cta{
+    font-family: ProximaNovaLight;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.tagline_description{
+    font-size: 1.8em;
+}
+
+.tagline_cta{
+    font-size: 1.3em;
+}
+
+.header-contacts{
+    position: relative;
+    width: 100%;
+    top: 22em;
+}
+
+.header-contacts_ask_question{
+    display: block;
+    margin-top: 1em;
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1600px) {
+    .outer-rect{
+        top: -18em;
+        height: 80vh;
+    }
+}
+
+
+@media (max-width: 992px){
+    .navbar-nav span{
+        display: none;
+    }
+
+    .main_title, .main_description{
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        padding-left: 0;
+    }
+
+    .main_title h1{
+        font-size: 11vw;
+    }
+
+
+    .main_description p{
+        font-size: 4vw;
+    }
+
+    .outer-rect{
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        top: 0;
+        height: 40vw;
+    }
+
+    .tagline_text{
+        font-size: 5vw;
+        margin-top: 0.5em;
+    }
+
+    .tagline_description{
+        font-size: 4vw;
+    }
+
+    .tagline_cta {
+        font-size: 3vw;
+    }
+
+    .header-contacts{
+        top:2em;
+    }
+}
+
+
+@media (max-width: 576px){
+    .header-contacts div{
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .header-contacts span{
+        font-size: 1.7em;
+    }
+    .header-contacts_tel{
+        display: none;
+    }
+}
+
+
